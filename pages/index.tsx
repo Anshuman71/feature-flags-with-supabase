@@ -15,33 +15,27 @@ const Home: NextPage = () => {
       <div
         className={"grid grid-cols-1 gap-4 sm:grid-cols-3 max-w-6xl mx-auto"}
       >
-        <FeatureFlag featureName={"red"}>
-          <p
-            className={
-              "min-h-[300px] text-center text-xl text-white rounded-lg bg-red-700"
-            }
-          >
-            Red box
-          </p>
-        </FeatureFlag>
-        <FeatureFlag featureName={"blue"}>
-          <p
-            className={
-              "min-h-[300px] text-center text-xl text-white rounded-lg bg-blue-700"
-            }
-          >
-            Blue box
-          </p>
-        </FeatureFlag>
-        <FeatureFlag featureName={"green"}>
-          <p
-            className={
-              "min-h-[300px] text-center text-xl text-white rounded-lg bg-green-700"
-            }
-          >
-            Green box
-          </p>
-        </FeatureFlag>
+        <p
+          className={
+            "min-h-[300px] text-center text-xl text-white rounded-lg bg-red-700"
+          }
+        >
+          Red box
+        </p>
+        <p
+          className={
+            "min-h-[300px] text-center text-xl text-white rounded-lg bg-blue-700"
+          }
+        >
+          Blue box
+        </p>
+        <p
+          className={
+            "min-h-[300px] text-center text-xl text-white rounded-lg bg-green-700"
+          }
+        >
+          Green box
+        </p>
       </div>
     </>
   );
